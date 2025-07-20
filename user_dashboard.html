@@ -1,0 +1,200 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Hand+Pre:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Quicksand:wght@300..700&display=swap"
+        rel="stylesheet">
+
+    <style>
+        body {
+            font-family: "Inter", sans-serif;
+        }
+    </style>
+
+</head>
+
+<body class="max-w-[1400px] mx-auto bg-gray-50">
+    <!-- header-section -->
+    <section>
+        <div class="flex justify-between py-7">
+            <p class="text-2xl font-semibold ">Dashboard</p>
+            <div class="flex justify-center items-center gap-3">
+                <button class="hover:bg-gray-100 h-8 w-8 rounded-full p-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0" />
+                    </svg>
+
+                </button>
+                <button class="h-10 w-10 bg-blue-500 rounded-full text-xl text-white">B</button>
+            </div>
+        </div>
+    </section>
+    <!-- tasks_hrader -->
+    <section>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+            <div class="flex justify-between bg-white p-4 rounded-lg shadow-sm">
+                <div>
+                    <p class="font-semibold text-sm text-gray-400 mb-3">TOTAL TASK</p>
+                    <p class="text-3xl font-semibold mb-1">3</p>
+                    <p class="font-semibold text-sm text-gray-400">ll last month</p>
+                </div>
+                <div class="text-blue-500 bg-blue-50 h-10 w-10 p-2 rounded-full my-7">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M15.666 3.888A2.25 2.25 0 0 0 13.5 2.25h-3c-1.03 0-1.9.693-2.166 1.638m7.332 0c.055.194.084.4.084.612v0a.75.75 0 0 1-.75.75H9a.75.75 0 0 1-.75-.75v0c0-.212.03-.418.084-.612m7.332 0c.646.049 1.288.11 1.927.184 1.1.128 1.907 1.077 1.907 2.185V19.5a2.25 2.25 0 0 1-2.25 2.25H6.75A2.25 2.25 0 0 1 4.5 19.5V6.257c0-1.108.806-2.057 1.907-2.185a48.208 48.208 0 0 1 1.927-.184" />
+                    </svg>
+
+                </div>
+            </div>
+            <div class="flex justify-between bg-white p-4 rounded-lg shadow-sm">
+                <div>
+                    <p class="font-semibold text-sm text-gray-400 mb-3">COMPLETED TASK</p>
+                    <p class="text-3xl font-semibold mb-1">1</p>
+                    <p class="font-semibold text-sm text-gray-400">ll last month</p>
+                </div>
+                <div class="text-green-500 bg-green-50 h-10 w-10 p-2 rounded-full my-7">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                    </svg>
+
+
+                </div>
+            </div>
+            <div class="flex justify-between bg-white p-4 rounded-lg shadow-sm">
+                <div>
+                    <p class="font-semibold text-sm text-gray-400 mb-3">TASK IN PROGRESS</p>
+                    <p class="text-3xl font-semibold mb-1">1</p>
+                    <p class="font-semibold text-sm text-gray-400">ll last month</p>
+                </div>
+                <div class="text-amber-500 bg-amber-50 h-10 w-10 p-2 rounded-full my-7">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                    </svg>
+
+
+                </div>
+            </div>
+            <div class="flex justify-between bg-white p-4 rounded-lg shadow-sm">
+                <div>
+                    <p class="font-semibold text-sm text-gray-400 mb-3">TODOS</p>
+                    <p class="text-3xl font-semibold mb-1">1</p>
+                    <p class="font-semibold text-sm text-gray-400">ll last month</p>
+                </div>
+                <div class="text-purple-500 bg-purple-50 h-10 w-10 p-2 rounded-full my-7">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M3.75 12h16.5m-16.5 3.75h16.5M3.75 19.5h16.5M5.625 4.5h12.75a1.875 1.875 0 0 1 0 3.75H5.625a1.875 1.875 0 0 1 0-3.75Z" />
+                    </svg>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- two_section -->
+    <section class="my-8 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
+        <!-- task -->
+        <section class="">
+            <div class="bg-white p-5 pt-6 pb-27 rounded-lg shadow-sm">
+                <p class="text-2xl font-bold mb-4">Today's Tasks</p>
+                <div class="flex justify-between">
+                    <div>
+                        <div class="flex items-center gap-3 font-semibold text-sm mb-3">
+                            <div class="w-2 h-2 bg-green-500 rounded-full"></div>
+                            <p>Complete project proposal</p>
+                        </div>
+                        <div class="flex items-center gap-3 font-semibold text-sm mb-3">
+                            <div class="w-2 h-2 bg-orange-500 rounded-full"></div>
+                            <p>Review team updates</p>
+                        </div>
+                        <div class="flex items-center gap-3 font-semibold text-sm mb-3">
+                            <div class="w-2 h-2 bg-blue-500 rounded-full"></div>
+                            <p>Prepare for client meeting</p>
+                        </div>
+                    </div>
+                    <div class="text-sm text-gray-300 font-semibold">
+                        <p class="mb-3">High</p>
+                        <p class="mb-3">Normal</p>
+                        <p class="mb-3">Low</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- all -->
+        <section>
+            <div class="bg-white p-5 pt-6 pb-10 rounded-lg shadow-sm">
+                <p class="text-2xl font-bold mb-4">All Tasks</p>
+                <div class="mb-5 grid grid-cols-4 gap-4 text-gray-500 font-semibold">
+                    <p>TASK TITLE</p>
+                    <p>PRIORITY</p>
+                    <p>TEAM</p>
+                    <p>CREATED AT</p>
+                </div>
+                <div class="grid grid-cols-4 gap-4">
+                    <div>
+                        <div class="flex items-center gap-3 font-semibold text-sm mb-5">
+                            <div class="w-2 h-2 bg-green-500 rounded-full"></div>
+                            <p>Test Low Tasks</p>
+                        </div>
+                        <div class="flex items-center gap-3 font-semibold text-sm mb-5">
+                            <div class="w-2 h-2 bg-amber-500 rounded-full"></div>
+                            <p>Test Task</p>
+                        </div>
+                        <div class="flex items-center gap-3 font-semibold text-sm mb-5">
+                            <div class="w-2 h-2 bg-red-500 rounded-full"></div>
+                            <p>Test Task</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="text-sm font-semibold">
+                        <p class="mb-3 text-blue-400 bg-blue-50 rounded-lg h-7 w-14 px-3 py-1 text-sm">Low</p>
+                        <p class="mb-3 text-gray-400 bg-gray-50 rounded-lg h-7 w-18 px-3 py-1 text-sm">Normal</p>
+                        <p class="mb-3 text-red-400 bg-red-50 rounded-lg h-7 w-14 px-3 py-1 text-sm">High</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="flex -space-x-2 mb-3">
+                            <div class="bg-blue-500 h-7 w-7 rounded-full flex items-center text-sm text-white justify-center ">CA</div>
+                            <div class="bg-green-700 h-7 w-7 rounded-full flex items-center text-sm text-white justify-center ">JA</div>
+                            <div class="bg-yellow-600 h-7 w-7 rounded-full flex items-center text-sm text-white justify-center ">B</div>
+                            
+                        </div>
+                        <div class="flex -space-x-2 mb-3">
+                            <div class="bg-red-500 h-7 w-7 rounded-full flex items-center text-sm text-white justify-center ">AJ</div>
+                            <div class="bg-purple-700 h-7 w-7 rounded-full flex items-center text-sm text-white justify-center ">EV</div>
+                            <div class="bg-yellow-600 h-7 w-7 rounded-full flex items-center text-sm text-white justify-center ">B</div>
+                            
+                        </div>
+                        <div class="flex -space-x-2 mb-3">
+                            <div class="bg-blue-500 h-7 w-7 rounded-full flex items-center text-sm text-white justify-center ">CA</div>
+                            <div class="bg-green-700 h-7 w-7 rounded-full flex items-center text-sm text-white justify-center ">JA</div>
+                            <div class="bg-red-600 h-7 w-7 rounded-full flex items-center text-sm text-white justify-center ">AJ</div>
+                            <div class="bg-yellow-600 h-7 w-7 rounded-full flex items-center text-sm text-white justify-center ">B</div>
+                            
+                        </div>
+                    </div>
+                    <div>
+                       <p class="text-gray-400 mb-4 font-semibold">9 months ago</p>
+                       <p class="text-gray-400 mb-4 font-semibold">9 months ago</p>
+                       <p class="text-gray-400 mb-4 font-semibold">10 months ago</p> 
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+</body>
+
+</html>
